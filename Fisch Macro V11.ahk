@@ -20,11 +20,8 @@ AutoZoomDelay := 50
 
 ; Set to true to check for camera mode and enable it
 AutoEnableCameraMode := true
-AutoCameraDelay := 5
+AutoCameraDelay := 5 
 
-; Set to true to automatically look down
-AutoLookDownCamera := true
-AutoLookDelay := 200
 
 ; Set to true to automatically blur the camera
 AutoBlurCamera := true
@@ -48,7 +45,7 @@ NavigationKey := "ň"
 ShakeMode := "Navigation"
 
 ; Color range to scan for fish bar
-FishBarColorTolerance := 0
+FishBarColorTolerance := 100
 
 ; Seconds for click shake to be considered failed
 ClickShakeFailsafe := 20
